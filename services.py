@@ -52,13 +52,7 @@ def summarize_text(text_to_summarize: str) -> str | None:
 if __name__ == '__main__':
     # Este bloco só será executado se o arquivo services rodar o arquivo diretamente
     TEXTO_EXEMPLO = """
-    A inteligência artificial (IA) é um campo da ciência da computação que se dedica
-    ao desenvolvimento de sistemas capazes de realizar tarefas que normalmente exigiriam
-    inteligência humana. Isso inclui aprendizado, raciocínio, resolução de problemas,
-    percepção e uso da linguagem. As aplicações de IA são vastas, abrangendo desde
-    assistentes virtuais e carros autônomos até diagnósticos médicos e análise de mercado financeiro.
-    O desenvolvimento da IA tem sido impulsionado por avanços em poder computacional e pela
-    disponibilidade de grandes volumes de dados (Big Data).
+    No período de 01 a 27 de outubro de 2025, o Condomínio Solar das Flores registrou e acompanhou diversas atividades e ocorrências com o objetivo de manter a ordem e o bem-estar dos moradores. Foram realizadas manutenções preventivas na piscina e nos portões automáticos, garantindo que os espaços comuns permanecessem seguros e funcionais. Comunicados sobre horários de silêncio foram enviados em datas estratégicas, lembrando os moradores da importância do respeito mútuo. No período, foram registradas algumas ocorrências, como vazamentos em unidades, lâmpadas queimadas nos corredores e queixas de barulho excessivo, todas sendo devidamente resolvidas ou monitoradas pela administração. As áreas comuns, incluindo salão de festas, churrasqueira e quadra de esportes, foram reservadas de acordo com a programação pelos moradores, sem conflitos de horários. Financeiramente, o condomínio manteve um controle rigoroso, com quatro unidades em atraso de pagamento, despesas dentro do previsto com limpeza, manutenção e energia elétrica, e um saldo positivo em conta de R$ 15.450,00, permitindo a continuidade das melhorias e a boa gestão do patrimônio comum.
     """
 
     print("\n--- Resumindo texto de exemplo ---")
